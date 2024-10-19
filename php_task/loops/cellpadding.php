@@ -21,10 +21,8 @@
 
     <table cellpadding="3px" cellspacing="0px">
         <?php
-        // Outer loop for columns (1 to 5)
         for ($col = 1; $col <= 5; $col++) {
             echo "<tr>";
-            // Inner loop for rows (1 to 6)
             for ($row = 1; $row <= 6; $row++) {
                 $result = $row * $col;
                 echo "<td>$row * $col = $result</td>";

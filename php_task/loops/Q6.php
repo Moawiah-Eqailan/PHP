@@ -21,7 +21,6 @@
 
         $factorial = 1;
 
-        // Calculate factorial using a for loop
         for ($i = 1; $i <= $num; $i++) {
             $factorial *= $i;
         }
