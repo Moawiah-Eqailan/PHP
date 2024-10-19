@@ -8,7 +8,6 @@ if (isset($_POST["submit"])) {
     $password = !empty($_POST['password']) ? $_POST['password'] : null;
 
     if ($name && $email && $password) {
-        // عمل هاش للباسورد
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
         $sql = "INSERT INTO db (user_name, user_email, password) VALUES (?, ?, ?)";
@@ -16,7 +15,6 @@ if (isset($_POST["submit"])) {
         $stmt = mysqli_stmt_init($connect);
 
         if (mysqli_stmt_prepare($stmt, $sql)) {
-            // استخدام الباسورد المشفر في الاستعلام
             mysqli_stmt_bind_param($stmt, "sss", $name, $email, $hashed_password);
 
             if (mysqli_stmt_execute($stmt)) {
