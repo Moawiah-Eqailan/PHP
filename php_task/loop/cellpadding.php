@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +18,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <table cellpadding="3px" cellspacing="0px">
@@ -29,8 +31,15 @@
             }
             echo "</tr>";
         }
+        echo "<br><br><br><a href=Q6.php><button>Next to Q6</button></a>";
+
+        echo "<br><br><a href=../../php_task/index.php><button>To Home Page</button></a>";
+
+
+
         ?>
     </table>
 
 </body>
+
 </html>

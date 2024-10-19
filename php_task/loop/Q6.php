@@ -27,6 +27,14 @@
 
         echo "Factorial of $num is: $factorial";
     }
+
+
+    echo "<br><br><br><a href=nested01.php><button>Back To Nested 01 For</button></a>";
+
+    echo "<a href=cellpadding.php><button>Next To Cellpadding</button></a><br><br>";
+
+    echo "<a href=../../php_task/index.php><button>To Home Page</button></a>";
+
     ?>
 
 </body>

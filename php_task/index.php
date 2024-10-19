@@ -20,11 +20,11 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             transition: 0.3s;
         }
-        .php-style button:hover{
-         
-             transform: scale(1.1);
-        }
 
+        .php-style button:hover {
+
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
@@ -34,17 +34,16 @@
         echo "<a href=./array/Color.php><button>Array</button></a><br><br>";
 
         echo "<a href=./fun/primeNumber.php><button>Function</button></a><br><br>";
-        
+
         echo "<a href=./logical_if/ifCondition.php><button>Logicl Statements</button></a><br><br>";
 
-
-        echo "<a href=./loops/displays.php><button>Loops</button></a><br><br>";
+        echo "<a href=./loop/displays.php><button>Loops</button></a><br><br>";
 
         ?>
 
     </div>
 
-    
+
 </body>
 
 </html>

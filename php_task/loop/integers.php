@@ -10,16 +10,25 @@
 <body>
 
     <?php
-    $num = 30; 
-    $total = 0; 
+    $num = 30;
+    $total = 0;
 
     for ($i = 1; $i <= $num; $i++) {
-        echo $i," ";
-        $total += $i; 
+        echo $i, " ";
+        $total += $i;
     }
-    
-    
-    echo "<br><br>Total Number is : " . $total; 
+
+
+    echo "<br><br>Total Number is : " . $total;
+
+
+
+
+    echo "<br><br><br><a href=displays.php><button>Back To Displays</button></a>";
+
+    echo "<a href=nestedFor.php><button>Next To Nested For</button></a><br><br>";
+
+    echo "<a href=../../php_task/index.php><button>To Home Page</button></a>";
     ?>
 
 </body>
